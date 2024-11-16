@@ -35,4 +35,3 @@ nb## How to compile this:-
 - All data transfers are encryped and verified using SHA.
 - Reference link for SHA hash being used:-https://stackoverflow.com/questions/2262386/generate-sha256-with-openssl-and-c/10632725
 
-**Note** :- Since I am using Macbook and have done this enitely on this so some minor hardcodes are there like if tracker is closed with a paticular port then we need to upadate it again in code as of now in both client and tracker side since in Mac bind address failed is coming and manually we need to delete the proccess with its pid to reuse the port,I have tried setsockopt too yet it did'nt work.
